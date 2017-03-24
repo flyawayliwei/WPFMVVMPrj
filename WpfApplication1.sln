@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLib", "MVVMLib\MVVMLib.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunModules", "FunModules", "{D4382F72-143E-4B12-81A1-C8910F20B316}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{721FC462-6C98-4ABC-843A-258CDDBE8652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{224AB3E8-D8B9-4BCD-882D-CCEC21BB70D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{C61B50CB-2280-4003-A952-E958D794FDF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,8 +35,24 @@ Global
 		{14F6F724-95EA-4369-B285-43138A7053B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14F6F724-95EA-4369-B285-43138A7053B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14F6F724-95EA-4369-B285-43138A7053B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721FC462-6C98-4ABC-843A-258CDDBE8652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721FC462-6C98-4ABC-843A-258CDDBE8652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721FC462-6C98-4ABC-843A-258CDDBE8652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721FC462-6C98-4ABC-843A-258CDDBE8652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224AB3E8-D8B9-4BCD-882D-CCEC21BB70D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224AB3E8-D8B9-4BCD-882D-CCEC21BB70D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224AB3E8-D8B9-4BCD-882D-CCEC21BB70D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224AB3E8-D8B9-4BCD-882D-CCEC21BB70D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61B50CB-2280-4003-A952-E958D794FDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61B50CB-2280-4003-A952-E958D794FDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61B50CB-2280-4003-A952-E958D794FDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61B50CB-2280-4003-A952-E958D794FDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{224AB3E8-D8B9-4BCD-882D-CCEC21BB70D0} = {D4382F72-143E-4B12-81A1-C8910F20B316}
+		{C61B50CB-2280-4003-A952-E958D794FDF2} = {D4382F72-143E-4B12-81A1-C8910F20B316}
 	EndGlobalSection
 EndGlobal

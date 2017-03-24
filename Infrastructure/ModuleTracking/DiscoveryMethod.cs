@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Infrastructure.ModuleTracking
+{
+    /// <summary>
+    /// Describes how a module is discovered.
+    /// </summary>
+    public enum DiscoveryMethod
+    {
+        /// <summary>
+        /// The module is directly referenced by the application.
+        /// </summary>
+        ApplicationReference,
+
+        /// <summary>
+        /// The module is listed in a XAML manifest file.
+        /// </summary>
+        XamlManifest,
+
+        /// <summary>
+        /// The module is listed in a configuration file.
+        /// </summary>
+        ConfigurationManifest,
+
+        /// <summary>
+        /// The module is discovered by examining the assemblies in a directory.
+        /// </summary>
+        DirectorySweep
+    }
+}
