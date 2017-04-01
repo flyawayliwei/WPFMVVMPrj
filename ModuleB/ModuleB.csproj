@@ -92,9 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Globe.Resource\Globe.Resource.csproj">
+    <ProjectReference Include="..\Globe.Resource\Resource.csproj">
       <Project>{10c2c237-6f45-4f43-b318-ef9ab3584919}</Project>
-      <Name>Globe.Resource</Name>
+      <Name>Resource</Name>
     </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{721fc462-6c98-4abc-843a-258cddbe8652}</Project>

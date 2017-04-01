@@ -32,7 +32,7 @@ namespace WpfApplication1.Shell
         /// </remarks>
         protected override DependencyObject CreateShell()
         {
-            return ServiceLocator.Current.GetInstance<Shell.ShellView>();
+            return ServiceLocator.Current.GetInstance<Shell.ShellWindow>();
         }
 
         /// <summary>

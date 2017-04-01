@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{29FE404B-9795-4B93-A636-EF88A121FF15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApplication", "WpfApplication1\MainApplication.csproj", "{29FE404B-9795-4B93-A636-EF88A121FF15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globe.Resource", "Globe.Resource\Globe.Resource.csproj", "{10C2C237-6F45-4F43-B318-EF9AB3584919}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource", "Globe.Resource\Resource.csproj", "{10C2C237-6F45-4F43-B318-EF9AB3584919}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLib", "MVVMLib\MVVMLib.csproj", "{14F6F724-95EA-4369-B285-43138A7053B1}"
 EndProject

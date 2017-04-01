@@ -19,6 +19,7 @@ namespace WpfApplication1
             base.OnStartup(e);
 
             // The boostrapper will create the Shell instance, so the App.xaml does not have a StartupUri.
+            //程序启动后先加载MainWindows，接着执行bootstrapper.Run()，在ShellBootstrapper里面会加载ShellWindows
             ShellBootstrapper bootstrapper = new ShellBootstrapper();
             bootstrapper.Run();
         }

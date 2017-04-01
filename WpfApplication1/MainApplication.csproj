@@ -119,6 +119,9 @@
       <DependentUpon>ShellView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Shell\ShellViewModel.cs" />
+    <Compile Include="Shell\ShellWindow.xaml.cs">
+      <DependentUpon>ShellWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AppToolBar.xaml.cs">
       <DependentUpon>AppToolBar.xaml</DependentUpon>
     </Compile>
@@ -136,6 +139,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Shell\ShellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shell\ShellWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -176,9 +183,9 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Globe.Resource\Globe.Resource.csproj">
+    <ProjectReference Include="..\Globe.Resource\Resource.csproj">
       <Project>{10c2c237-6f45-4f43-b318-ef9ab3584919}</Project>
-      <Name>Globe.Resource</Name>
+      <Name>Resource</Name>
     </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{721fc462-6c98-4abc-843a-258cddbe8652}</Project>
