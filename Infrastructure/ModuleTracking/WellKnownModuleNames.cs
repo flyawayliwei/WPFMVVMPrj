@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Infrastructure.ModuleTracking
 {
     /// <summary>
-    /// A set of well-known module names for communication with IModuleTracker.
+    /// 定义模块名称
     /// </summary>
     public class WellKnownModuleNames
     {
@@ -40,5 +40,10 @@ namespace Infrastructure.ModuleTracking
         /// The name of module F.
         /// </summary>
         public const string ModuleF = "ModuleF";
+
+        /// <summary>
+        /// The name of module AppToolBar.
+        /// </summary>
+        public const string AppToolBarModule = "AppToolBarModule";
     }
 }
