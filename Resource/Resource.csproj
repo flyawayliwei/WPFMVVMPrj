@@ -108,6 +108,12 @@
     <Resource Include="Medias\PublicTool\退出全屏.png" />
     <Resource Include="Medias\PublicTool\退出全屏H.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Medias\LogIn\Button_Enty_Logo_master.png" />
+    <Resource Include="Medias\LogIn\密码.png" />
+    <Resource Include="Medias\LogIn\用户.png" />
+    <Resource Include="Medias\LogIn\账号.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

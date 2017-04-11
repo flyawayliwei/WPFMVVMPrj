@@ -3,6 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:p="http://www.codeplex.com/prism"
         xmlns:i="clr-namespace:Infrastructure.ModuleTracking;assembly=Infrastructure"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        Topmost="False"
+        Closed="Window_Closed"
+        WindowStyle="ToolWindow"
         Title="ShellWindow" Height="300" Width="300">
     <Grid ShowGridLines="False" Margin="0" x:Name="G">
         <Grid.ColumnDefinitions>
